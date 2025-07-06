@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "neeltate24/nodejs1"
+        IMAGE_NAME = "neeltate/nodejs1"
         IMAGE_TAG = "latest"
         CONTAINER_NAME = "nodejs-app"
         REMOTE_USER = "ubuntu"
